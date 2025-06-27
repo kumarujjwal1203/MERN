@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML with 100+ Tags</title>
+  </head>
+  <body>
+    <header>
+      <h1>Main Heading</h1>
+      <nav>
+        <a href="#">Home</a> | <a href="#">About</a> |
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Section Heading</h2>
+      <article>
+        <h3>Article Heading</h3>
+        <p>
+          This is a <b>bold</b> and <i>italic</i> paragraph with
+          <u>underline</u>, <mark>highlight</mark>, <small>small</small> text,
+          and <del>deleted</del> words.
+        </p>
+        <p>
+          Here is an
+          <abbr title="HyperText Markup Language">HTML</abbr> abbreviation, and
+          a <cite>Citation</cite>.
+        </p>
+        <blockquote>This is a blockquote element.</blockquote>
+        <pre><code>function hello() {
+  alert('Hello World');
+}</code></pre>
+      </article>
+    </section>
+
+    <section>
+      <h2>Lists</h2>
+      <ul>
+        <li>Unordered Item 1</li>
+        <li>Unordered Item 2</li>
+        <li>Unordered Item 3</li>
+      </ul>
+      <ol>
+        <li>Ordered Item 1</li>
+        <li>Ordered Item 2</li>
+        <li>Ordered Item 3</li>
+      </ol>
+      <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Forms</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" /><br /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" /><br /><br />
+
+        <label for="bio">Bio:</label><br />
+        <textarea id="bio" rows="4" cols="50"></textarea><br /><br />
+
+        <label>Gender:</label><br />
+        <input type="radio" name="gender" value="male" /> Male<br />
+        <input type="radio" name="gender" value="female" /> Female<br /><br />
+
+        <label>Hobbies:</label><br />
+        <input type="checkbox" value="reading" /> Reading<br />
+        <input type="checkbox" value="sports" /> Sports<br /><br />
+
+        <label for="country">Country:</label>
+        <select id="country">
+          <option>India</option>
+          <option>USA</option>
+          <option>UK</option></select
+        ><br /><br />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <section>
+      <h2>Tables</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Alice</td>
+            <td>alice@example.com</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Bob</td>
+            <td>bob@example.com</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">End of Table</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section>
+      <h2>Media</h2>
+      <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+      <audio controls>
+        <source src="audio.mp3" type="audio/mp3" />
+      </audio>
+      <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+    </section>
+
+    <section>
+      <h2>Other Tags</h2>
+      <button>Click Me</button>
+      <progress value="70" max="100"></progress>
+      <meter value="0.7">70%</meter>
+      <details>
+        <summary>More info</summary>
+        <p>This is inside a details tag.</p>
+      </details>
+      <figure>
+        <img src="https://via.placeholder.com/100" alt="Figure Image" />
+        <figcaption>This is a caption</figcaption>
+      </figure>
+      <iframe src="https://example.com" width="200" height="100"></iframe>
+      <canvas
+        id="myCanvas"
+        width="100"
+        height="100"
+        style="border: 1px solid #000"
+      ></canvas>
+      <svg width="100" height="100">
+        <circle
+          cx="50"
+          cy="50"
+          r="40"
+          stroke="black"
+          stroke-width="3"
+          fill="red"
+        />
+      </svg>
+      <noscript>You need JavaScript enabled.</noscript>
+    </section>
+
+    <aside>
+      <h4>Aside Content</h4>
+      <p>This is some side info.</p>
+    </aside>
+
+    <footer>
+      <p>&copy; 2025 My Website</p>
+      <address>123 Main St, City, Country</address>
+      <time datetime="2025-06-19">Last Updated: June 19, 2025</time>
+    </footer>
+  </body>
+</html>

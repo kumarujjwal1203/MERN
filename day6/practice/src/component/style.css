@@ -1,0 +1,17 @@
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+button {
+  margin: 5px;
+  border-radius: 20%;
+}

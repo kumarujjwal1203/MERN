@@ -1,0 +1,9 @@
+// custom.scss
+
+$indigo-300: #a5b4fc; // Tailwind’s indigo-300 equivalent
+
+.indigo-bg {
+  background-color: $indigo-300;
+  color: white; // optional for contrast
+  min-height: 100vh; // optional full screen height
+}
