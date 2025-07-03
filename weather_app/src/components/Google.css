@@ -1,0 +1,81 @@
+/* .google-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border: 2px solid #4285f4;
+  color: #4285f4;
+  font-weight: bold;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.google-btn:hover {
+  background-color: #4285f4;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.google-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+} */
+
+
+
+.google-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border: 2px solid #4285f4;
+  color: #4285f4;
+  font-weight: bold;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.google-btn:hover {
+  background-color: #4285f4;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.google-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
