@@ -1,0 +1,20 @@
+// custom.scss
+
+$indigo-300: #a5b4fc; // Tailwind’s indigo-300 equivalent
+
+.indigo-bg {
+  background-color: $indigo-300;
+  color: white; // optional for contrast
+  min-height: 100vh; // optional full screen height
+}
+
+.gradient-bg {
+  background: linear-gradient(
+    90deg,
+    rgba(57, 155, 196, 1) 0%,
+    rgba(87, 199, 133, 1) 100%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  color: white !important;
+  min-height: 100vh !important;
+}

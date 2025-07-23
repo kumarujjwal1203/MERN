@@ -1,0 +1,19 @@
+
+body{
+  font-family:sans-serif;
+  text-align:center;
+  background:#5a4d75;
+  margin:0;
+  overflow:hidden;                
+}
+h1{margin:25px 0 10px}
+p {font-size:1.2rem;margin-bottom:20px}
+
+#box{
+  position:absolute;
+  width:60px;height:60px;
+  background:#ff5252;
+  border-radius:8px;
+  cursor:pointer;
+  transition:top 2.8s linear, left 2.8s linear;
+}

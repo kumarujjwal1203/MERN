@@ -1,0 +1,12 @@
+let a="Ujjwal Kumar       ";
+let b="shivam";
+console.log(a.length);
+console.log(a.toUpperCase());
+console.log(a.toLowerCase());
+console.log(a.trim().length);
+console.log(a.slice(2,8));
+console.log(a.includes("K"));
+console.log(a.indexOf("j"));
+console.log(a.replace("Kumar", "Gupta"));
+console.log(a.split("Ujj"));
+console.log(a.concat(b));

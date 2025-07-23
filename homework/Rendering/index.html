@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>eCommerce Products</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background: #f9f9f9;
+      }
+      .product-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      .product-card {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        text-align: center;
+      }
+      .product-card img {
+        max-width: 100%;
+        height: 200px;
+        object-fit: contain;
+      }
+      .product-card h3 {
+        font-size: 18px;
+      }
+      .product-card p {
+        font-size: 16px;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>eCommerce Products</h1>
+    <div id="productList" class="product-container"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
